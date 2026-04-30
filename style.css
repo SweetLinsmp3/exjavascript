@@ -1,0 +1,30 @@
+/* configuração pra adicionar o padding e margem na largura total
+e deixar grudado tudo pra dps arrumar margin: 0;*/
+
+*{
+    box-sizing: border-box;
+}
+
+/*Criando o farol redondo*/
+.farol{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(67, 67, 67);
+    border-radius: 50%;
+    display: flex;
+    margin: 0.3rem;
+}
+
+/*colocando o botão do lado do farol*/
+.parte-vermelha{
+    display: flex;
+}
+
+.parte-amarela{
+    display: flex;
+}
+
+.parte-verde{
+    display: flex;
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercícios JavaScript</h1>
+
+    <!-- Exercício 1: Mostrar e ocultar elemento -->
+    <section>
+        <h2>1 - Mostrar e ocultar elemento</h2>
+        <p id="ocultar">Este é um parágrafo que será mostrado e ocultado.</p>
+        <button id="botaoOcultar">Ocultar</button>
+        <button id="botaoMostrar">Mostrar</button>
+    </section>
+
+    <!-- Exercício 2: Trocar conteúdo -->
+    <section>
+        <h2>2 - Limpando conteúdo</h2>
+        <input type="text" id="campoTexto">
+        <button id="botaoTrocar">Trocar</button>
+        <div id="conteudo">
+            <p>Seu texto vem aqui</p>
+        </div>
+        <button id="botaoLimpar">Limpar</button>
+    </section>
+
+    <!-- Exercício 3: Crie uma pergunta com múltiplas opções -->
+    <section>
+        <h2>3 - Múltiplas opções</h2>
+        <form id="form">
+            <p>Quais destas tecnologias são sistemas operacionais?</p>
+            <input type="checkbox" id="opcao1" value="Windows">
+            <label for="opcao1">Windows</label><br>
+
+            <input type="checkbox" id="opcao2" value="macOS">
+            <label for="opcao2">macOS</label><br>
+
+            <input type="checkbox" id="opcao3" value="Linux">
+            <label for="opcao3">Linux</label><br>
+
+            <input type="checkbox" id="opcao4" value="JavaScript">
+            <label for="opcao4">JavaScript</label><br>
+
+            <button id="botaoVerificar">Verificar</button>
+        </form>
+    </section>
+
+    <!-- Exercício 4: Lista de tarefas -->
+    <section>
+        <h2>4 - Lista de tarefas</h2>
+        <input type="text" id="novaTarefa" placeholder="Digite uma nova tarefa">
+        <button id="botaoAdicionar">Adicionar</button>
+        <ul id="listaTarefas"></ul>
+    </section>
+
+    <!-- Exercício 5: Conversor de temperatura -->
+     <section>
+        <h2>5 - Conversor de temperatura</h2>
+        <p>Digite a temperatura em Celsius:</p>
+        <input type="number" id="numeroCelsius">
+        <button id="botaoConverter">Converter para Fahrenheit</button>
+        <div id="resultadoTemp">Resultado</div>
+     </section>
+
+     <!-- Exercício 6: simulador de semáforo-->
+      <section>
+        <h2>6 - Simulador de semáforo</h2>
+        <div class="parte-vermelha">
+            <span class="farol" id="circuloVermelho"></span> 
+            <button class="botaoFarol" id="botaoVermelho">Acender</button>
+        </div>
+        <div class="parte-amarela">
+            <span class="farol" id="circuloAmarelo"></span>
+            <button class="botaoFarol" id="botaoAmarelo">Acender</button>
+        </div>
+        <div class="parte-verde">    
+            <span class="farol" id="circuloVerde"></span>
+            <button class="botaoFarol" id="botaoVerde">Acender</button>
+        </div>
+      </section>
+
+      <!-- gerador de tabuada -->
+       <section>
+        <h2>7 - Gerador de tabuada</h2>
+        <input type="number" id="numeroTabuada">
+        <button id="botaoTabuada">tabuada do 1 ao 10</button>
+        <ol id="tabuada"></ol>
+       </section>
+
+    <script src="app.js"></script>
+    <noscript>Seu navegador não suporta JavaScript.</noscript>
+</body>
+</html>
